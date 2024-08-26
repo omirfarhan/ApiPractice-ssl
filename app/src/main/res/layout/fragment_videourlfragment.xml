@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Videourlfragment"
+    android:orientation="vertical"
+
+    >
+
+    <androidx.media3.ui.PlayerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:show_buffering="when_playing"
+        app:hide_on_touch="true"
+        app:resize_mode="fill"
+        app:surface_type="surface_view"
+        app:use_controller="true"
+        android:id="@+id/exoplayerview"
+        app:show_subtitle_button="true"
+
+        >
+
+    </androidx.media3.ui.PlayerView>
+
+    
+
+
+
+
+</LinearLayout>
