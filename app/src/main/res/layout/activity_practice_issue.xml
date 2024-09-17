@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Practice_Issue"
+
+    android:background="#063F50"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_marginTop="10dp"
+            >
+
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            >
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/left_arrow"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                >
+
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="14dp"
+                >
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="23dp"
+                    android:src="@drawable/phone"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="center"
+                    android:layout_marginRight="12dp"
+                    >
+
+                </ImageView>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="23dp"
+                    android:src="@drawable/video"
+
+                    >
+
+                </ImageView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Michel Jodha"
+                    android:textSize="28sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="4dp"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Online"
+                    android:textSize="16sp"
+                    android:textColor="#B3FFFFFF"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_medium"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:cardCornerRadius="50dp"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/picture"
+                    >
+
+                </ImageView>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_shape"
+                android:textSize="20sp"
+                android:text="Hi! I am Omi"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/poppins_medium"
+                >
+            </TextView>
+        </LinearLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+
+           >
+
+           <TextView
+               android:layout_width="215dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="Have you done it"
+               android:background="@drawable/right_bg"
+               android:textSize="20sp"
+               android:gravity="center"
+               android:layout_marginRight="10dp"
+               android:textColor="@color/white"
+               android:fontFamily="@font/poppins_medium"
+               >
+
+           </TextView>
+
+       </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cardCornerRadius="50dp"
+            app:cardBackgroundColor="#1E9B8E"
+            android:layout_weight="1"
+
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/plusicon"
+                android:scaleType="centerInside"
+
+                >
+
+            </ImageView>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+        <EditText
+            android:layout_width="254dp"
+            android:layout_height="49dp"
+            android:background="@drawable/edit_bg"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+
+        </EditText>
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="38dp"
+            android:src="@drawable/microphone"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    
+
+</RelativeLayout>
